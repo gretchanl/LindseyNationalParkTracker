@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/NatlParkTracker/bin/Debug
+/NatlParkTracker/obj/Debug
