@@ -7,19 +7,20 @@ using System.Threading.Tasks;
 namespace NatlParkTracker
 {
     /// <summary>
-    /// This is data for each park
+    /// This is data for each park from the Park Service
     /// </summary>
     public class Park
     {
         #region Properties
+        
         public string Name { get; set; }
         public string Abbreviation { get; set; }
         public string Region { get; set; }
         public string State { get; set; }
         #endregion
-
+       
         #region Methods
-
+      
 
         #endregion
     }
