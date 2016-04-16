@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace NatlParkTracker
 {
-
+    /// <summary>
+    /// This is data for each national park
+    /// </summary>
+    /// 
     public enum ParkRegion
     {
         Alaska,
@@ -18,15 +21,13 @@ namespace NatlParkTracker
         Southeast
     }
     
-    /// <summary>
-    /// This is data for each park from the Park Service
-    /// </summary>
-    public class MyVisit
+    
+    public class Park
     {
         #region Properties
         
         public string ParkName { get; set; }
-        public string Abbreviation { get; set; } // like NP, NPL
+        public string Abbrev { get; set; } // like NP, NPL
         // public string Region { get; set; } - created an enum for this
         public string State { get; set; }
         public ParkRegion Region { get; set; }
@@ -35,10 +36,7 @@ namespace NatlParkTracker
 
         #region Methods
 
-        public string MyVisit(string ParkName)
-        {
-            return visit1;
-        }
+        
 
         #endregion
     }
